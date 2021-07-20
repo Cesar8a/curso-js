@@ -1,0 +1,36 @@
+GIT
+
+/*********************************************************************************************************************************/
+git --version
+
+git init //Inicializará la carpeta/repositorio que tienes en tu computador local
+
+git status
+
+git add . //Esto hará un seguimiento de los cambios realizados en la carpeta de tu sistema desde el último commit. Si es la primera vez que haces commit a los contenidos de la carpeta, se añadirán todos
+
+git commit -m "Comentario" //Esto preparará los cambios añadidos/rastreados en la carpeta de tu sistema para empujar a Github
+
+git push origin master //Esto es para empujar tus archivos a Github. Ten en cuenta que la última palabra en el comando master, no es una entrada fija cuando se ejecuta git push, puede ser reemplazada por cualquier “nombre_de_rama” relevante.
+
+git clone //Se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usar: git clone nombredeusuario@host:/path/to/repository
+
+
+/*********************************************************************************************************************************/
+/* Ramas */
+
+git branch //Devuelve el listado de todas las ramas creadas
+
+git branch "nueva rama" //Crear rama
+
+git checkout "nombre rama" //Cambiar rama
+
+git checkout -b "nueva rama" //Crear rama y cambiarse a esa rama
+
+git branch -m "nombre de la rama" "nuevo nombre de la rama" //Cambiar nombre a una rama
+
+git branch -d "nombre de la rama" //Eliminar rama
+
+git branch -h //Listado de cosas que se pueden hacer con branch
+
+/*********************************************************************************************************************************/
