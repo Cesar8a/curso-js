@@ -46,5 +46,7 @@ Fast-forward - Sin commits en la rama master, commits de rama secundaria y se un
 Uniones automáticas - Con commits en la rama master, commits de rama secundaria pero los commits en distintos archivos. Git los ordena como crea conveniente. Sin problemas no provocan conflictos.
 Manual - Con commits en la rama master, commits de rama secundaria pero los commits en los mismos archivos y se pedira que se resuelva el conflicto de manera manual, se solicita un nuevo commit y con eso se podria continuar.
 
+git merge <rama>
+
 /*********************************************************************************************************************************/
 /* */
