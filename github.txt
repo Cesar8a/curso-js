@@ -14,11 +14,13 @@ git commit -m "Comentario" //Esto preparará los cambios añadidos/rastreados en
 git log --oneline 
 
 git push origin master //Esto es para empujar tus archivos a Github. Ten en cuenta que la última palabra en el comando master, no es una entrada fija cuando se ejecuta git push, puede ser reemplazada por cualquier “nombre_de_rama” relevante.
+git push -u origin master
 
 git push origin --delete <nombre_de_rama> //Eliminar rama remota
 
 git clone //Se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usar: git clone nombredeusuario@host:/path/to/repository
 
+git pull --rebase origin master
 
 /*********************************************************************************************************************************/
 /* Ramas - Branch */
@@ -49,4 +51,4 @@ Manual - Con commits en la rama master, commits de rama secundaria pero los comm
 git merge <rama>
 
 /*********************************************************************************************************************************/
-/* */
+/* Comandos: git push, git pull, git fetch, git merge */
